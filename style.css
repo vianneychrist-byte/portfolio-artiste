@@ -31,3 +31,24 @@ body { /* La balise body représente tout le contenu visible de la page. */
     line-height: 1.6; /* Hauteur des lignes : 1,6 fois la taille de la police. Un nombre sans unité est un multiplicateur. Le texte est plus aéré et plus lisible. */
 
 }
+h1, /* La virgule permet d'appliquer la même règle à plusieurs éléments à la fois. */
+h2, /* h1, h2 et h3 sont les titres de niveau 1, 2 et 3. */
+h3 {
+
+    font-family:
+        Georgia, /* Première police essayée : une police à empattements (petits traits aux extrémités des lettres), plus élégante pour les titres. */
+        "Times New Roman", /* Deuxième choix. Les guillemets sont obligatoires quand le nom de la police contient des espaces. */
+        serif; /* Solution de secours : n'importe quelle police à empattements. */
+
+}
+em { /* La balise em sert à mettre un mot en valeur dans le texte. */
+
+    font-style: italic; /* Affiche le texte en italique. */
+
+}
+a { /* La balise a représente les liens. Par défaut, ils sont bleus et soulignés. */
+
+    color: inherit; /* inherit = « prends la même valeur que l'élément parent ». Le lien garde la couleur du texte qui l'entoure. */
+
+    text-decoration: none; /* Supprime le soulignement par défaut des liens. */
+}
