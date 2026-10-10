@@ -1,46 +1,34 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<meta name="description" content="Portfolio artistique d'un étudiant en art.">
-<title>Portfolio : Étudiant en Art</title> 
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio artistique d'un étudiant en art.">
+    <title>Portfolio : Étudiant en Art</title>
+    <link rel="stylesheet" href="style.css">
 </head>
- <body>
+<body>
 
-<header class="navbar">
+    <header class="navbar" id="accueil">
+        <a href="#accueil" class="logo">ALEX<span>.</span></a>
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#travaux">Travaux</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <a href="#accueil" class="logo">
-        ALEX<span>.</span>
-    </a>
- <nav>
-        <a href="#apropos">À propos</a>
-        <a href="#travaux">Travaux</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-  <section class="about" id="apropos">
-
-        <div class="section-number">
-            01 . À propos
-        </div>
+    <!-- 01. À PROPOS -->
+    <section class="about" id="apropos">
+        <div class="section-number">01 . À propos</div>
 
         <div class="about-content">
-
             <div class="about-image">
-
-                <img
-                    src="images/portrait.jpg"
-                    alt="Portrait de l'artiste"
-                >
-
+                <img src="images/portrait.jpg" alt="Portrait de l'artiste">
             </div>
 
-
             <div class="about-text">
-
                 <h2>
                     Observer.
                     <br>
@@ -66,149 +54,233 @@
                     Je m'intéresse particulièrement aux relations
                     entre le corps, l'espace, la mémoire et les émotions.
                 </p>
-
             </div>
-
         </div>
-
     </section>
-    
-    
-    commenter 
-    
-    <section class="about" id="apropos"
 
-  <div class="section-number"> 01 . À propos </div> 
-
-  <div class="about-content"> 
-
-    <div class="about-image">
-
-      <img src="images/portrait.jpg" alt="Portrait de l'artiste" >
-
-    </div> 
-
-    <div class="about-text"> 
-      <h2> 
-
-        <br> 
-
-         <br> 
-
-        <em>Créer.</em> 
-
-      </h2> 
-
-      <p> 
-        Mon travail artistique part d'une envie simple : observer le monde qui m'entoure et chercher de nouvelles façons de le représenter. (premier paragraphe : il présente la démarche générale de l'artiste.)
-      </p> 
-
-      <p>
-        À travers mes études, j'expérimente différentes techniques et différents supports. La peinture, le dessin, la photographie et les techniques mixtes occupent une place importante dans mes recherches. (deuxième paragraphe : il présente les techniques artistiques utilisées.)
-      </p> 
-
-      <p> 
-        Je m'intéresse particulièrement aux relations entre le corps, l'espace, la mémoire et les émotions. (troisième paragraphe : il présente les thèmes qui intéressent l'artiste.)
-      </p> 
-
-    </div> 
-
-  </div> 
-</section> 
-  <section class="gallery" id="travaux">
-
-	<div class="section-header">
-
-            <div class="section-number">
-                02 . Travaux
-            </div>
-
+    <!-- 02. TRAVAUX -->
+    <section class="gallery" id="travaux">
+        <div class="section-header">
+            <div class="section-number">02 . Travaux</div>
             <h2>
                 Quelques explorations
                 <br>
                 <em>artistiques.</em>
             </h2>
-
         </div>
-   </section>
-   
-   COMMENTE
-   
-   <section class="gallery" id="travaux"> 
 
-  <div class="section-header"> 
-    <div class="section-number"> 02 . Travaux </div> 
-    <h2> 
+        <div class="gallery-grid">
 
-      Quelques explorations
-
-      <br> 
-
-      <em>artistiques.</em> 
-
-    </h2> 
-
-  </div> 
-
-</section> 
-  <div class="gallery-grid">
-           
             <article class="artwork artwork-large">
-
                 <div class="image-container">
-
-                    <img src="images/oeuvre-1.jpg"
-                        alt="Œuvre Fragmentation"
-                    >
-
-                    <span class="artwork-number">
-                        01
-                    </span>
-
+                    <img src="images/oeuvre-1.jpg" alt="Œuvre Fragmentation">
+                    <span class="artwork-number">01</span>
                 </div>
-
                 <div class="artwork-info">
-
                     <div>
                         <h3>Fragmentation</h3>
                         <p>Peinture abstraite</p>
                     </div>
-
                     <span>2026</span>
-
                 </div>
-
             </article>
-     </div>
-     
-     COMMENTER
-     
-     <div class="gallery-grid"> 
 
-  <article class="artwork artwork-large"> 
+            <article class="artwork artwork-small">
+                <div class="image-container">
+                    <img src="images/oeuvre-2.jpg" alt="Œuvre Silence">
+                    <span class="artwork-number">02</span>
+                </div>
+                <div class="artwork-info">
+                    <div>
+                        <h3>Silence</h3>
+                        <p>Dessin</p>
+                    </div>
+                    <span>2026</span>
+                </div>
+            </article>
 
-    <div class="image-container"> 
+            <article class="artwork artwork-small">
+                <div class="image-container">
+                    <img src="images/oeuvre-3.jpg" alt="Œuvre Matière">
+                    <span class="artwork-number">03</span>
+                </div>
+                <div class="artwork-info">
+                    <div>
+                        <h3>Matière</h3>
+                        <p>Technique mixte</p>
+                    </div>
+                    <span>2025</span>
+                </div>
+            </article>
 
-      <img src="images/oeuvre-1.jpg" alt="Œuvre Fragmentation" > 
+            <article class="artwork artwork-wide">
+                <div class="image-container">
+                    <img src="images/oeuvre-4.jpg" alt="Œuvre Corps et espace">
+                    <span class="artwork-number">04</span>
+                </div>
+                <div class="artwork-info">
+                    <div>
+                        <h3>Corps &amp; espace</h3>
+                        <p>Photographie</p>
+                    </div>
+                    <span>2025</span>
+                </div>
+            </article>
 
-      <span class="artwork-number"> 01 </span> 
-    </div> 
+            <article class="artwork artwork-small">
+                <div class="image-container">
+                    <img src="images/oeuvre-5.jpg" alt="Œuvre Mémoire">
+                    <span class="artwork-number">05</span>
+                </div>
+                <div class="artwork-info">
+                    <div>
+                        <h3>Mémoire</h3>
+                        <p>Peinture</p>
+                    </div>
+                    <span>2025</span>
+                </div>
+            </article>
 
-    <div class="artwork-info"> 
+            <article class="artwork artwork-large">
+                <div class="image-container">
+                    <img src="images/oeuvre-6.jpg" alt="Œuvre Émergence">
+                    <span class="artwork-number">06</span>
+                </div>
+                <div class="artwork-info">
+                    <div>
+                        <h3>Émergence</h3>
+                        <p>Illustration</p>
+                    </div>
+                    <span>2024</span>
+                </div>
+            </article>
 
-      <div> 
+        </div>
+    </section>
 
-        <h3>Fragmentation</h3> 
-        <p>Peinture abstraite</p> 
+    <!-- 03. PROCESSUS -->
+    <section class="studio">
+        <div class="studio-image">
+            <img src="images/atelier.jpg" alt="Atelier de création artistique">
+        </div>
 
-      </div> 
+        <div class="studio-text">
+            <span class="section-number">03 . Le processus</span>
 
-      <span>2026</span>
+            <h2>
+                L'œuvre commence
+                <em>bien avant</em>
+                le résultat.
+            </h2>
 
-    </div>
+            <p>
+                Croquis, recherches, essais, erreurs et expérimentations
+                font partie intégrante de ma pratique.
+            </p>
 
-  </article>
-</div> 
-  
+            <p>
+                Mon atelier est un espace de recherche où les idées
+                peuvent évoluer librement.
+            </p>
+        </div>
+    </section>
+
+    <!-- 04. PARCOURS -->
+    <section class="education" id="parcours">
+        <div class="section-number">04 . Parcours</div>
+
+        <h2>Formation &amp; expériences</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span>2024 — Aujourd'hui</span>
+                <div>
+                    <h3>Formation en Arts</h3>
+                    <p>Nom de l'établissement</p>
+                    <small>
+                        Peinture · Dessin · Histoire de l'art ·
+                        Techniques contemporaines
+                    </small>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span>2025</span>
+                <div>
+                    <h3>Projet artistique</h3>
+                    <p>Projet personnel</p>
+                    <small>Recherche autour de la mémoire et de l'identité.</small>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span>2024</span>
+                <div>
+                    <h3>Première exposition</h3>
+                    <p>Exposition collective</p>
+                    <small>
+                        Présentation de travaux réalisés pendant
+                        la formation.
+                    </small>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ARTIST STATEMENT -->
+    <section class="statement">
+        <div class="statement-content">
+            <span>ARTIST STATEMENT</span>
+
+            <blockquote>
+                « Je cherche à créer des images qui ne donnent pas
+                toutes les réponses, mais qui donnent envie de regarder
+                une seconde fois. »
+            </blockquote>
+
+            <p>Alex</p>
+        </div>
+    </section>
+
+    <!-- 05. CONTACT -->
+    <section class="contact" id="contact">
+        <div class="section-number">05 . Contact</div>
+
+        <div class="contact-content">
+            <div>
+                <h2>
+                    Une idée ?
+                    <br>
+                    <em>Parlons-en.</em>
+                </h2>
+            </div>
+
+            <div class="contact-details">
+                <p>
+                    Pour une collaboration, une exposition,
+                    un projet artistique ou simplement pour échanger.
+                </p>
+
+                <a href="mailto:email@example.com">email@example.com</a>
+
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                    Instagram ↗
+                </a>
+
+                <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                    Behance ↗
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>© 2026 Alex</span>
+        <span>Portfolio artistique</span>
+        <a href="#accueil">Retour en haut ↑</a>
+    </footer>
+
 </body>
 </html>
