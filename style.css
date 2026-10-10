@@ -12,3 +12,22 @@
 		padding: 0;
 		box-sizing: border-box;
 	}
+html { /* La balise html représente toute la page web. */
+    scroll-behavior: smooth; /* Le défilement devient doux et animé quand on clique sur un lien interne (ex. vers #contact), au lieu d'un saut brutal. */
+}
+
+
+body { /* La balise body représente tout le contenu visible de la page. */
+
+    background: var(--cream); /* Couleur de fond de la page. var(--cream) utilise la variable définie dans :root. */
+
+    color: var(--black); /* Couleur du texte par défaut. Les éléments à l'intérieur en héritent. */
+
+    font-family:
+        Arial, /* Première police essayée. */
+        Helvetica, /* Si Arial n'existe pas sur l'ordinateur, le navigateur essaie celle-ci. */
+        sans-serif; /* Solution de secours : n'importe quelle police sans empattement. */
+
+    line-height: 1.6; /* Hauteur des lignes : 1,6 fois la taille de la police. Un nombre sans unité est un multiplicateur. Le texte est plus aéré et plus lisible. */
+
+}
